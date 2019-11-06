@@ -1,0 +1,74 @@
+.topmenu.menu {
+    box-shadow: none;
+    border: none;
+    Background-color: whitesmoke;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.middlemenu.menu {
+    box-shadow: none;
+    border: none;
+}
+
+.top.image {
+    padding-top: 10px;
+}
+.bottom.footer {
+    color: white;
+    box-shadow: none;
+    border: none;
+    Background-color: rgb(41, 41, 41);
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.bottom2.footer {
+    color: white;
+    box-shadow: none;
+    border: none;
+    Background-color: rgb(41, 41, 41);
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.line.footer {
+    color: white;
+    box-shadow: none;
+    border: none;
+    Background-color: rgb(41, 41, 41);
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.bottom3.footer {
+    color: white;
+    box-shadow: none;
+    border: none;
+    Background-color: rgb(41, 41, 41);
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#under{
+    border-bottom: 2px solid white;
+}
+
+p.tight {line-height:0.5}
+
+
+hr.new1 {
+    border-top: 2px solid black;
+}
+
+.row0 {
+    width: 100%;
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
