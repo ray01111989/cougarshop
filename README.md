@@ -1,5 +1,4 @@
 # cougarshop
-Assignment 5
 This is creating a mockup for the "Cougar Shop", using Semantic UI.
 It has Top Menubar• 
 The menubar has no borderline in between menu items;
