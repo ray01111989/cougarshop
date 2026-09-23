@@ -1,11 +1,13 @@
+/* Top menu bar: no border or shadow, light grey background, space on both sides */
 .topmenu.menu {
   box-shadow: none;
   border: none;
-  Background-color: whitesmoke;
+  background-color: whitesmoke;
   padding-left: 50px;
   padding-right: 50px;
 }
 
+/* Middle menu (the dropdowns under the logo): no border or shadow */
 .middlemenu.menu {
     box-shadow: none;
     border: none;
@@ -15,11 +17,12 @@
   padding-top: 10px;
 }
 
+/* The four dark footer blocks share the same colour, so they look like one footer */
 .bottom.footer {
     color: white;
     box-shadow: none;
     border: none;
-    Background-color: rgb(41, 41, 41);
+    background-color: rgb(41, 41, 41);
     padding-top: 50px;
     padding-bottom: 30px;
     padding-left: 50px;
@@ -30,7 +33,7 @@
     color: white;
     box-shadow: none;
     border: none;
-    Background-color: rgb(41, 41, 41);
+    background-color: rgb(41, 41, 41);
     padding-bottom: 30px;
     padding-left: 50px;
     padding-right: 50px;
@@ -40,7 +43,7 @@
     color: white;
     box-shadow: none;
     border: none;
-    Background-color: rgb(41, 41, 41);
+    background-color: rgb(41, 41, 41);
     padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
@@ -50,16 +53,18 @@
     color: white;
     box-shadow: none;
     border: none;
-    Background-color: rgb(41, 41, 41);
+    background-color: rgb(41, 41, 41);
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
-#under{
+/* Footer column headings with a white line under them (a class now, because an id must be used only once) */
+.under {
     border-bottom: 2px solid white;
 }
 
+/* Tightly spaced footer list items */
 p.tight {line-height:0.5}
 
 
