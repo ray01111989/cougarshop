@@ -1,27 +1,39 @@
-# cougarshop
-This is creating a mockup for the "Cougar Shop", using Semantic UI.
-It has Top Menubar• 
-The menubar has no borderline in between menu items;
-• The social media menu items on the left are tightly grouped together;
-• There are some margin spaces on both sides of the menubar;
-• The "My Cart" menu item can show a dropdown menu if clicked;
-Figure 2: My Cart Dropdown Menu
-• The top menubar has no border or shadow;
-• The top menubar has a background color (hint: you should use color picker (https:
-//imagecolorpicker.com) and the attached mockup image file to find out the exact
-color);
-Middle Section
-• The logo needs to be placed in the center, and has a width "200px";
-• The menu items are located in the center;
-• Four menu items are dropdown, and each of them shows a specific dropdown menu when
-clicked, 
- Footer
-The footer of the mockup page has a darker background, recall the approach we used in the
-"color block" example in class. Again, you should use color picker (https://imagecolorpicker.
-com) and the attached mockup image file to find out the exact color. The requirements for the
-footer section are as follows:
-• The footer has some padding spaces on top (50px) and at the bottom (50px);
-• Create a three column grid, each column has an horizontal rule and a list of items;
-• The social media icons are bigger than the ones on the top menu bar, and they are inverted
-because the background is dark;
-• Create the copyright information at the bottom.
+# Cougar Shop mockup
+
+A static web page that recreates the home page of the "Cougar Shop" (a university bookstore) using [Semantic UI](https://semantic-ui.com/). It was made for a web design class and there is no server or build step.
+
+## See it
+
+Open `Index.html` in a browser. It needs an internet connection, because Semantic UI and jQuery are loaded from a CDN (with integrity checks).
+
+The pictures `Finished Top Menu.png` and `Finished Middle.png` are the mockups the page was built to match.
+
+## What the page has
+
+**Top menu bar**
+- No border or shadow, a light grey background and space on both sides
+- Social media icons grouped on the left; home, search, account and a **My Cart** dropdown on the right (click it to see "My cart is currently empty")
+
+**Middle section**
+- The logo centered, 200 px wide
+- A centered menu with four dropdowns (Textbooks, Apparel, Gifts, Collections) and a Search item
+
+**Footer**
+- A dark background with 50 px of space above and below
+- Three columns (Navigation, Main menu, Connect), each with a heading line and a list; an email box with a Join button (mockup only, it sends nothing)
+- Bigger, inverted social icons because the background is dark, and the copyright line at the bottom
+
+## Files
+
+| File | What it is |
+| --- | --- |
+| `Index.html` | The page |
+| `style.css` | The colours and spacing for the menus and footer |
+| `coug.jpg`, `centerimage.jpg` | The logo and the banner image |
+| `Finished Top Menu.png`, `Finished Middle.png` | The mockup images |
+
+## Notes
+
+- All links, buttons and the email box are placeholders and do not go anywhere.
+- The file is called `Index.html` with a capital I. Web servers that run on Linux (including most hosting) look for `index.html` in lowercase, so rename the file before publishing the page.
+- Editor and system files (`.idea/`, `.DS_Store`) were committed earlier and can be deleted from the repository.
